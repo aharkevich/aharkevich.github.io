@@ -1,2 +1,1 @@
-# aharkevich.github.io
-Compiled personal website
+# My personal website

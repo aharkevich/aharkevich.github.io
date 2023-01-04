@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aharkevich.github.io/sitemap.xml

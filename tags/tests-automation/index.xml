@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>https://aharkevich.github.io/</link>
-    <description>Recent content on Home</description>
+    <title>Tests Automation on Home</title>
+    <link>https://aharkevich.github.io/tags/tests-automation/</link>
+    <description>Recent content in Tests Automation on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Jan 2023 23:28:34 +0100</lastBuildDate><atom:link href="https://aharkevich.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 23:28:34 +0100</lastBuildDate><atom:link href="https://aharkevich.github.io/tags/tests-automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selenium with Specflow best practices .Net</title>
       <link>https://aharkevich.github.io/posts/selenium-with-specflow-best-practices/</link>
@@ -15,7 +15,6 @@
       <guid>https://aharkevich.github.io/posts/selenium-with-specflow-best-practices/</guid>
       <description>If you want to cover your application with stable, fast, effective and easy to maintain automated tests, you should follow few simple rules, that will make your life easier.
 In this article I will tell you about Selenium and Specflow great features and practices based on my E2E tests development experience.</description>
-      
     </item>
     
   </channel>

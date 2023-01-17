@@ -1,1 +1,56 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Home</title><link>https://aharkevich.github.io/tags/</link><description>Recent content in Tags on Home</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://aharkevich.github.io/tags/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Home</title>
+    <link>https://aharkevich.github.io/tags/</link>
+    <description>Recent content in Tags on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Jan 2023 23:28:34 +0100</lastBuildDate><atom:link href="https://aharkevich.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>.Net</title>
+      <link>https://aharkevich.github.io/tags/.net/</link>
+      <pubDate>Mon, 09 Jan 2023 23:28:34 +0100</pubDate>
+      
+      <guid>https://aharkevich.github.io/tags/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Practices</title>
+      <link>https://aharkevich.github.io/tags/best-practices/</link>
+      <pubDate>Mon, 09 Jan 2023 23:28:34 +0100</pubDate>
+      
+      <guid>https://aharkevich.github.io/tags/best-practices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selenium</title>
+      <link>https://aharkevich.github.io/tags/selenium/</link>
+      <pubDate>Mon, 09 Jan 2023 23:28:34 +0100</pubDate>
+      
+      <guid>https://aharkevich.github.io/tags/selenium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Specflow</title>
+      <link>https://aharkevich.github.io/tags/specflow/</link>
+      <pubDate>Mon, 09 Jan 2023 23:28:34 +0100</pubDate>
+      
+      <guid>https://aharkevich.github.io/tags/specflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tests Automation</title>
+      <link>https://aharkevich.github.io/tags/tests-automation/</link>
+      <pubDate>Mon, 09 Jan 2023 23:28:34 +0100</pubDate>
+      
+      <guid>https://aharkevich.github.io/tags/tests-automation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

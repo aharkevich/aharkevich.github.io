@@ -1,1 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://aharkevich.github.io/authors/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url><loc>https://aharkevich.github.io/categories/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url><loc>https://aharkevich.github.io/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url><loc>https://aharkevich.github.io/series/</loc><changefreq>daily</changefreq><priority>0.5</priority></url><url><loc>https://aharkevich.github.io/tags/</loc><changefreq>daily</changefreq><priority>0.5</priority></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/.net/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/best-practices/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/posts/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/selenium/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/posts/selenium-with-specflow-best-practices/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/specflow/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/tags/tests-automation/</loc>
+            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/authors/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/categories/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/series/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+</urlset>

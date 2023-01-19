@@ -104,7 +104,7 @@ In this article I will tell you about Selenium and Specflow great features and p
     "keywords": ["Selenium","Specflow",".Net","Best Practices","Tests Automation"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1028"
+    "wordCount": "1023"
   }]
   </script>
 
@@ -136,6 +136,17 @@ In this article I will tell you about Selenium and Specflow great features and p
   
   
   
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P8GXB7RG4Z"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-P8GXB7RG4Z', { 'anonymize_ip': false });
+}
+</script>
+
 
 
   
@@ -435,7 +446,7 @@ In this article I will tell you about Selenium and Specflow great features and p
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2023-01-09 23:28:34 &#43;0100 CET">9 January 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1028 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2023-01-09 23:28:34 &#43;0100 CET">9 January 2023</time><span class="px-2 text-primary-500">&middot;</span><span>1023 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
   
 
   
@@ -616,18 +627,18 @@ In this article I will tell you about Selenium and Specflow great features and p
 <p>Using of relative path in XPath locator will solve this problem, however, it will work slower, then other types of locators.</p>
 <pre tabindex="0"><code>driver.findElement(By.xpath(&#34;/html/body/div[7]/div[3]) ❌
 </code></pre><p>Such locators are also hard to read and maintain.</p>
-<p>What locators <strong>should</strong> be used in this case?</p>
+<p>What locators <strong>should</strong> be used instead?</p>
 <p>The good practice is to use the following locators:</p>
 <ol>
-<li>By html element identifier</li>
+<li>Html element identifier</li>
 </ol>
 <pre tabindex="0"><code>driver.findElement(By.Id(&#34;loginForm&#34;)) ✅
 </code></pre><ol start="2">
-<li>By CSS class</li>
+<li>CSS class</li>
 </ol>
 <pre tabindex="0"><code>driver.findElement(By.ClassName(&#34;myTable&#34;)) ✅
 </code></pre><ol start="3">
-<li>By CSS selector</li>
+<li>CSS selector</li>
 </ol>
 <pre tabindex="0"><code>driver.findElement(By.CssSelector(&#34;[data-qa=&#39;object-id&#39;]&#34;) ✅
 </code></pre><p>As you may have noticed, I&rsquo;ve used <code>data-qa</code> attribute selector. Using of such attributes is a great approach. You will not depend on any ids or classes, that can be change during development, you will define your own attributes just for your locators.</p>

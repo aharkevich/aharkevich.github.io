@@ -4,6 +4,33 @@
   
     
       <url>
+            <loc>https://aharkevich.github.io/</loc>
+            <lastmod>2023-01-23T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/lego/</loc>
+            <lastmod>2023-01-23T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://aharkevich.github.io/lego/mclaren/</loc>
+            <lastmod>2023-01-23T23:28:34+01:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://aharkevich.github.io/tags/.net/</loc>
             <lastmod>2023-01-09T23:28:34+01:00</lastmod>
             <changefreq>daily</changefreq>
@@ -14,15 +41,6 @@
     
       <url>
             <loc>https://aharkevich.github.io/tags/best-practices/</loc>
-            <lastmod>2023-01-09T23:28:34+01:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://aharkevich.github.io/</loc>
             <lastmod>2023-01-09T23:28:34+01:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>

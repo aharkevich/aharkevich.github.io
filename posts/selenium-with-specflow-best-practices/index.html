@@ -651,7 +651,7 @@ In this article I will tell you about Selenium and Specflow great features and p
 </h3><p>Do <strong>NOT</strong> use XPath</p>
 <p>XPath locator with the absolute path to the DOM element will lead you to the errors with the slightest change in the HTML structure.</p>
 <p>Using of relative path in XPath locator will solve this problem, however, it will work slower, then other types of locators.</p>
-<pre tabindex="0"><code>driver.findElement(By.xpath(&#34;/html/body/div[7]/div[3]) ❌
+<pre tabindex="0"><code>driver.FindElement(By.xpath(&#34;/html/body/div[7]/div[3]) ❌
 </code></pre><p>Such locators are also hard to read and maintain.</p>
 <p>What locators <strong>should</strong> be used instead?</p>
 <p>The good practice is to use the following locators:</p>
@@ -662,11 +662,11 @@ In this article I will tell you about Selenium and Specflow great features and p
 </code></pre><ol start="2">
 <li>CSS class</li>
 </ol>
-<pre tabindex="0"><code>driver.findElement(By.ClassName(&#34;myTable&#34;)) ✅
+<pre tabindex="0"><code>driver.FindElement(By.ClassName(&#34;myTable&#34;)) ✅
 </code></pre><ol start="3">
 <li>CSS selector</li>
 </ol>
-<pre tabindex="0"><code>driver.findElement(By.CssSelector(&#34;[data-qa=&#39;object-id&#39;]&#34;) ✅
+<pre tabindex="0"><code>driver.FindElement(By.CssSelector(&#34;[data-qa=&#39;object-id&#39;]&#34;) ✅
 </code></pre><p>As you may have noticed, I&rsquo;ve used <code>data-qa</code> attribute selector. Using of such attributes is a great approach. You will not depend on any ids or classes, that can be change during development, you will define your own attributes just for your locators.</p>
 <p>Even if you need to find the element by some text, you can avoid the use of XPath with nested locators.</p>
 <pre tabindex="0"><code>drive.FindElements(By.TagName(&#34;a&#34;)).First(e =&gt; e.Text == &#34;Car&#34;) ✅
@@ -743,10 +743,11 @@ wait.Until(driver =&gt; driver.FindElement(By.Id(&#34;loginButton&#34;)))
             style="text-decoration-line: none !important;" href="#browser-session-management" aria-label="Anchor">#</a></span>        
     
 </h4><p><strong>DO</strong> finish your browser session after each test run.</p>
-<p>This simple hook will help you to keep your client storage clean before each test run.</p>
+<p>This simple hook will help you to close the browser and quit the session to keep your client storage clean before each test run.</p>
 <pre tabindex="0"><code>[AfterScenario]
 internal static void FinishBrowserSession(IWebDriver driver)
 {
+    driver.Close();
     driver.Quit();
 }
 </code></pre><p>Such approach is very useful in case when you need to login under different users. Having this hook frees you from adding logout logic and prevent you from possible flakiness caused by old/not updated client storage values.</p>
